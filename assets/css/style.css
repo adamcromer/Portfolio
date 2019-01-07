@@ -46,8 +46,8 @@ header {
 #Header-Name {
     position:absolute;
     width:100%;
-    padding-top:2.5vw;
-    padding-bottom:1.5vw;
+    padding-top:2vw;
+    padding-bottom:2vw;
     left:0%;
 }
 
@@ -76,8 +76,6 @@ nav {
     background-color:#444349;
     color:#F7F7F2;
 }
-
-
 
 h2 {
     background-color:#F7F7F2;
@@ -160,18 +158,20 @@ footer {
 }
 
 .PortSquares {
-    position: relative;
+    /* position: relative; */
     float: left;
-    width: 35%;
-    height: auto;
+    width: 80%;
     margin-top:2vw;
     margin-bottom:2vw;
     margin-left:10%;
-  }
-     
- .PortBanners {
-    position: absolute;
-    bottom: 20%;
+    border-style:solid;
+    border-width:0.5vw;
+    border-color:#444349;
+}
+
+.PortBanners {
+    /* position: absolute; */
+    /* bottom: 20%; */
     width: 100%;
     padding-top:1vw;
     padding-bottom:1vw;
@@ -181,9 +181,9 @@ footer {
     font-weight:bold;
     font-size:2.5vw;
     background-color:#dcd6f7;
-    transition: background-image 0.3s ease;
-  }
-  
+    transition: 0.3s ease;
+    float:left;
+}  
 
 .PortSquares:hover .PortBanners{
     background-color:#444349;
@@ -192,8 +192,13 @@ footer {
 }
 
 .PortImages {
-    width:100%;
-    height:100%;
+    width:300px;
+    height:200px;
+    float:left;
+}
+
+.portInfo {
+    float:left;
 }
 
 #Contact-Info {
@@ -249,4 +254,20 @@ label {
 .SubmitButton {
     float:left;
     margin-bottom:2vw;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #444349;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcd6f7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #abc4ab;
 }
