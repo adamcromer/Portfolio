@@ -1,0 +1,132 @@
+@media screen and (max-width: 980px) {
+    #Bio-Image {
+        max-width:40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .NavBarLinks {
+        font-size:2vw;
+    }
+
+    h2 {
+        font-size:3vw;
+    }
+
+    #Header-Name,
+    nav {
+        top:20%;
+    }
+
+    #Header-Left {
+        width:30%;
+        font-size:3.5vw;
+    }
+
+    footer {
+        font-size:3vw;
+        height:8vw;
+    }
+
+    #Bio-Image {
+        max-width:50%;
+    }
+
+    #Bio-Text {
+        font-size:3vw;
+    }
+
+    #Footer-Text {
+        width:50%;
+        left:25%;
+    }
+
+    #Contact-Info,
+    #Contact-Input {
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header,
+    footer {
+        height:10vw;
+    }
+
+    nav,
+    #Header-Name {
+        top:30%;
+    }
+
+    .NavBarLinks,
+    .PortBanners {
+        font-size:3vw;
+    }
+    
+    nav {
+        width:50%;
+    }
+
+    #Main-Bio {
+        margin-top:15vw;
+        margin-bottom:15vw;
+    }
+
+    #Footer-Text {
+        width:50%;
+        left:25%;
+    }
+
+    
+}
+
+@media screen and (max-width: 426px) {
+    html,
+    header {
+        margin:0px;
+        padding:0px;
+    }
+
+    #Head-Cont {
+        width:100%;
+        margin:0px;
+    }
+    
+    #Main-Bio {
+        margin-left:0%;
+        margin-right:0%;
+        width:100%;
+    }
+
+    #Bio-Text {
+        font-size:4vw;
+    }
+
+    #Header-Left {
+        font-size:6vw;
+        width:40%;
+    }
+
+    nav {
+        width:60%;
+    }
+
+    .NavBarLinks,
+    .PortBanners {
+        font-size:4vw;
+    }
+
+    h2 {
+        font-size:5vw;
+    }
+
+    nav,
+    #Header-Name {
+        top:20%;
+    }
+
+    .PortSquares {
+        width:80%;
+        margin-left:10%;
+    }
+}

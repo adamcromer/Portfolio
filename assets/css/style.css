@@ -1,0 +1,250 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    color:#444349;
+    background-image:url(../images/stardust.png);
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+    line-height:150%;
+    font-family: 'Raleway', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    margin:auto; 
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif;  
+    color:#444349;
+    background-color:#abc4ab;
+    padding:0px;
+    height:7vw;
+    border-bottom:0.75vw solid #dcd6f7;
+    width:100%;
+    position:absolute;
+}
+
+#Head-Cont {
+    width:80%;
+    margin-left:10%;
+    height:100%;
+    position:relative;
+}
+
+#Header-Left {
+    margin: 0px;
+    width:30%;
+    height:100%;
+    text-align:center;
+    background-color:#F7F7F2;
+    float:left;
+    font-size:3vw;
+    font-weight:bolder;
+    position:relative;
+}
+
+#Header-Name {
+    position:absolute;
+    width:100%;
+    height:33.3%;
+    top:33.3%;
+    left:0%;
+}
+
+nav {
+    float:right;
+    width:33.3%;
+    position:absolute;
+    top:33.3%;
+    right:0%;
+}
+
+.NavBarLinks {
+    float:left;
+    width:33%;
+    padding:auto;
+    text-align:center;
+    font-size:2vw;
+    font-weight:bold;
+    transition: background-color 0.5s ease;
+}
+
+.NavBarLinks:hover {
+    background-color:#444349;
+    color:#F7F7F2;
+}
+
+
+
+h2 {
+    background-color:#F7F7F2;
+    padding: 3% 3% 3% 3%;
+    color:#444349;
+    border-bottom:0.1vw solid black;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-size:2.5vw;
+    font-weight:bolder;
+}
+
+
+ul {
+    font-weight:bold;    
+}
+
+a {
+    color:#444349;
+    text-decoration:none;
+}
+
+#Main-Bio,
+#Bio-Image,
+#Contact-Info {
+    float:left;
+}
+
+#Main-Bio { 
+    width:80%;
+    margin: 12vw 10% 10vw 10%;
+    padding:0;
+    background-color:#F7F7F2;
+    color:#444349;
+}
+
+#Contact-Info {
+    width:30%;
+}
+
+#Bio-Image {
+    margin:2vw;
+    float:left;
+    max-width:30%;
+    height:auto;
+    padding:auto;
+    transition: background-image 0.3s ease;
+}
+
+#Bio-Text {
+    margin: 1vw;
+    font-size:2vw;
+}
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+footer {
+    clear:both;
+    height:5vw;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#dcd6f7;
+    margin-top:10%;
+    text-align:center;
+    border-top:0.5vw solid #abc4ab;
+    font-style:italic;
+    font-size:1.5vw;
+    font-family: 'Playfair Display', serif;
+}
+
+#Footer-Text {
+    position: absolute;
+    bottom: 0;
+    left: 33.3%;
+    width:33.3%;
+}
+
+.PortSquares {
+    position: relative;
+    float: left;
+    width: 35%;
+    height: auto;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    margin-left:10%;
+  }
+     
+ .PortBanners {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    margin: 0px;
+    text-align:center;
+    color:#444349;
+    font-weight:bold;
+    font-size:2.5vw;
+    background-color:#dcd6f7;
+    transition: background-image 0.3s ease;
+  }
+  
+
+.PortSquares:hover .PortBanners{
+    background-color:#444349;
+    color:#F7F7F2;
+    font-weight:bolder;
+}
+
+.PortImages {
+    width:100%;
+    height:100%;
+}
+
+#Contact-Info {
+    width:30%;
+    border-left:0.1vw solid black;
+    margin:1vw;
+    margin-right:0vw;
+    float:left;
+    word-wrap: break-word;
+}
+
+#Contact-Input {
+    border-left:0.1vw solid black;
+    margin:1vw;
+    float:left;
+    width:60%;
+    padding:0px;
+}
+
+.ContOption {
+    width:90%;
+    margin:1vw;
+}
+
+input[type=text]:focus {
+    background-color:#dcd6f7;
+    color:#444349;
+}
+
+.CommentInput[type=text]:focus {
+    background-color:#dcd6f7;
+    color:#444349;
+}
+
+label,
+input {
+    width:100%;
+} 
+
+label {
+    font-weight:bolder;
+}
+.CommentInput {
+    height:auto;
+    width:100%;
+}
+
+.SubmitButton {
+    margin-left:3%;
+    width:90%;
+}
+
+.SubmitButton {
+    float:left;
+    margin-bottom:2vw;
+}
