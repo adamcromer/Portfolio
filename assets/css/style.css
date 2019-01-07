@@ -9,7 +9,6 @@ body {
     margin:0px;
     padding:0px;
     font-size:18px;
-    line-height:150%;
     font-family: 'Raleway', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -47,8 +46,8 @@ header {
 #Header-Name {
     position:absolute;
     width:100%;
-    height:33.3%;
-    top:33.3%;
+    padding-top:2.5vw;
+    padding-bottom:1.5vw;
     left:0%;
 }
 
@@ -56,20 +55,23 @@ nav {
     float:right;
     width:33.3%;
     position:absolute;
-    top:33.3%;
+    height:100%;
+    /* background-color:red; */
     right:0%;
 }
 
 .NavBarLinks {
     float:left;
     width:33%;
-    padding:auto;
+    padding-top:2.5vw;
+    padding-bottom:2.5vw;
     text-align:center;
     font-size:2vw;
     font-weight:bold;
     transition: background-color 0.5s ease;
 }
 
+#Header-Name:hover,
 .NavBarLinks:hover {
     background-color:#444349;
     color:#F7F7F2;
