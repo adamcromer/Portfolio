@@ -168,7 +168,7 @@ footer {
 .portText {
     margin-left:3%;
     margin-right:3%;
-    margin-top:10vw;
+    margin-top:8vw;
     background-color:#F7F7F2;
     padding:1vw;
 }
@@ -205,11 +205,16 @@ footer {
     float:right;
 }
 
+.portInfo > h1,
+.portInfo > div > h3 {
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+}
+
 .projectLink,
 .gitLink {
     margin-top:3vw;
     margin-left:10%;
-    margin-bottom:3vw;
+    margin-bottom:2vw;
     padding-top:1vw;
     padding-bottom:1vw;
     background-color:#444349;
@@ -233,18 +238,27 @@ footer {
     background-size: cover;
 }
 
-#starTrek {
-    background-image: url(../images/startrekwallpaper.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#humaniteerInfo > p,
+#humaniteerInfo > h1,
+#humaniteerInfo > div {
+    background-color:#222A3F;
+    color:#DCE0D9;  
+    border: solid #DCE0D9;  
 }
 
-#gifTastic {
-    background-image: url(../images/rainbow.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#humaniteerInfo > div > h3,
+#humaniteerInfo > h1 {
+    color:#A7D799;
+}
+
+#humaniteerInfo > a {
+    background-color:#A7D799;
+    border: solid #DCE0D9;  
+}
+
+#humaniteerInfo > a:hover{
+    background-color:#222A3F;
+    color:white;
 }
 
 #scheduler {
@@ -280,8 +294,24 @@ footer {
     background-color:#2a307e;
     color:white;
 }
+
+#gifTastic {
+    background-image: url(../images/rainbow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #triviaGame {
     background-image: url(../images/rug.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#starTrek {
+    background-image: url(../images/startrekwallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
