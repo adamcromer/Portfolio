@@ -303,12 +303,48 @@ footer {
     background-size: cover;
 }
 
+#gifTasticInfo > p,
+#gifTasticInfo > h1,
+#gifTasticInfo > div {
+    background-color:black;
+    color:white;  
+    border: solid white;  
+}
+
+#gifTasticInfo > a {
+    background-color:black;
+    border: solid white;  
+}
+
+#gifTasticInfo > a:hover{
+    background-color:white;
+    color:black;
+}
 
 #triviaGame {
     background-image: url(../images/rug.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#triviaGameInfo > p,
+#triviaGameInfo > h1,
+#triviaGameInfo > div {
+    background-color:#fac9b8;
+    color:black; 
+    border: solid black 0.25vw;  
+}
+
+#triviaGameInfo > a {
+    background-color:#D8D0C1;
+    border: solid black 0.25vw; 
+    color:black;
+}
+
+#triviaGameInfo > a:hover{
+    background-color:#8e5b64;
+    color:black;
 }
 
 #starTrek {
