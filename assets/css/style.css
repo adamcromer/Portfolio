@@ -208,6 +208,7 @@ footer {
 .portInfo > h1,
 .portInfo > div > h3 {
     font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-weight:bold;
 }
 
 .projectLink,
