@@ -355,11 +355,64 @@ footer {
     background-size: cover;
 }
 
+#starTrekInfo > p,
+#starTrekInfo > h1,
+#starTrekInfo > div {
+    background-color:black;
+    color:white;  
+    border: solid white;  
+}
+
+#starTrekInfo > a {
+    background-color:black;
+    border: solid white;  
+}
+
+#starTrekInfo > a:hover{
+    background-color:red;
+    color:white;
+}
+
 #guessGame {
     background-image: url(../images/animalwallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#guessGameInfo > h1,
+#guessGameInfo > p,
+#guessGameInfo > div,
+#guessGameInfo > a {
+    color:black;
+    text-shadow:
+    0.1vw 0.1vw 0 white,
+    0.1vw 0.1vw 0 white,
+    0.1vw 0.1vw 0 white,
+    0.1vw 0.1vw 0 white;
+    border:solid black;
+}
+
+#guessGameInfo > div > h3,
+#guessGameInfo > h1 {
+    font-weight:normal;
+}
+
+#guessGameInfo > h1 {
+    background-color:#fd6c76;
+}
+
+#guessGameInfo > p,
+#guessGameInfo > a {
+    background-color:#6aadbe;
+}
+
+#guessGameInfo > div {
+    background-color:#5b9932;
+}
+
+#guessGameInfo > a:hover {
+    background-color:#fd6c76;
 }
 
 .rounded {
