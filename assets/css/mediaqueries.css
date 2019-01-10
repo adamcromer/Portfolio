@@ -1,11 +1,11 @@
 @media screen and (max-width: 980px) {
-    #Bio-Image {
+    #bioImage {
         max-width:40%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .NavBarLinks {
+    .navBarLinks {
         font-size:2vw;
     }
 
@@ -13,12 +13,12 @@
         font-size:3vw;
     }
 
-    #Header-Name,
+    #headerName,
     nav {
         top:20%;
     }
 
-    #Header-Left {
+    #headerLeft {
         width:30%;
         font-size:3.5vw;
     }
@@ -28,21 +28,21 @@
         height:8vw;
     }
 
-    #Bio-Image {
+    #bioImage {
         max-width:50%;
     }
 
-    #Bio-Text {
+    #bioText {
         font-size:3vw;
     }
 
-    #Footer-Text {
+    #footerText {
         width:50%;
         left:25%;
     }
 
-    #Contact-Info,
-    #Contact-Input {
+    #contactInfo,
+    #contactInput {
         width:90%;
     }
 }
@@ -54,12 +54,12 @@
     }
 
     nav,
-    #Header-Name {
+    #headerName {
         top:30%;
     }
 
-    .NavBarLinks,
-    .PortBanners {
+    .navBarLinks,
+    .portBanners {
         font-size:3vw;
     }
     
@@ -67,42 +67,42 @@
         width:50%;
     }
 
-    #Main-Bio {
+    #mainBio {
         margin-top:15vw;
         margin-bottom:15vw;
     }
 
-    #Footer-Text {
+    #footerText {
         width:50%;
         left:25%;
     }
-
     
 }
 
 @media screen and (max-width: 426px) {
+
     html,
     header {
         margin:0px;
         padding:0px;
     }
 
-    #Head-Cont {
+    #headCont {
         width:100%;
         margin:0px;
     }
     
-    #Main-Bio {
+    #mainBio {
         margin-left:0%;
         margin-right:0%;
         width:100%;
     }
 
-    #Bio-Text {
+    #bioText {
         font-size:4vw;
     }
 
-    #Header-Left {
+    #headerLeft {
         font-size:6vw;
         width:40%;
     }
@@ -111,8 +111,8 @@
         width:60%;
     }
 
-    .NavBarLinks,
-    .PortBanners {
+    .navBarLinks,
+    .portBanners {
         font-size:4vw;
     }
 
@@ -121,11 +121,11 @@
     }
 
     nav,
-    #Header-Name {
+    #headerName {
         top:20%;
     }
 
-    .PortSquares {
+    .portSquares {
         width:80%;
         margin-left:10%;
     }

@@ -1,7 +1,8 @@
+
 html {
     position: relative;
     min-height: 100%;
-  }
+}
 
 body {
     color:#444349;
@@ -24,14 +25,14 @@ header {
     position:absolute;
 }
 
-#Head-Cont {
+#headCont {
     width:80%;
     margin-left:10%;
     height:100%;
     position:relative;
 }
 
-#Header-Left {
+#headerLeft {
     margin: 0px;
     width:30%;
     height:100%;
@@ -43,7 +44,7 @@ header {
     position:relative;
 }
 
-#Header-Name {
+#headerName {
     position:absolute;
     width:100%;
     padding-top:2vw;
@@ -58,7 +59,7 @@ nav {
     right:0%;
 }
 
-.NavBarLinks {
+.navBarLinks {
     float:left;
     padding: 2.5vw 1vw 2.5vw 1vw;
     text-align:center;
@@ -67,8 +68,8 @@ nav {
     transition: background-color 0.5s ease;
 }
 
-#Header-Name:hover,
-.NavBarLinks:hover {
+#headerName:hover,
+.navBarLinks:hover {
     background-color:#444349;
     color:#F7F7F2;
 }
@@ -93,13 +94,13 @@ a {
     text-decoration:none;
 }
 
-#Main-Bio,
-#Bio-Image,
-#Contact-Info {
+#mainBio,
+#bioImage,
+#contactInfo {
     float:left;
 }
 
-#Main-Bio { 
+#mainBio { 
     width:80%;
     margin: 12vw 10% 10vw 10%;
     padding:0;
@@ -107,11 +108,11 @@ a {
     color:#444349;
 }
 
-#Contact-Info {
+#contactInfo {
     width:30%;
 }
 
-#Bio-Image {
+#bioImage {
     margin:2vw;
     float:left;
     max-width:30%;
@@ -120,7 +121,7 @@ a {
     transition: background-image 0.3s ease;
 }
 
-#Bio-Text {
+#bioText {
     margin: 1vw;
     font-size:2vw;
 }
@@ -146,17 +147,16 @@ footer {
     font-family: 'Playfair Display', serif;
 }
 
-#Footer-Text {
+#footerText {
     position: absolute;
     bottom: 0;
     left: 33.3%;
     width:33.3%;
 }
 
-.PortSquares {
+.portSquares {
     float: left;
     width: 80%;
-    height:20vw;
     margin-top:2vw;
     margin-bottom:2vw;
     margin-left:10%;
@@ -166,17 +166,20 @@ footer {
 }
 
 .portText {
-    margin:1vw;
-    margin-top:6vw;
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:10vw;
     background-color:#F7F7F2;
+    padding:1vw;
 }
 
 .portLang{
-    margin:1vw;
+    padding:1vw;
+    margin:2vw 3% 0 3%;
     background-color:#F7F7F2;
 }
 
-.PortBanners {
+.portBanners {
     width: 94%;
     margin-top:1vw;
     margin-left:3%;
@@ -191,25 +194,27 @@ footer {
     float:left;
 }  
 
-.PortSquares:hover .PortBanners{
-    background-color:#444349;
-    color:#F7F7F2;
-    font-weight:bolder;
+.portInfo > div,
+.portInfo > p,
+.portInfo > a {
+    font-size:2vw;
 }
 
 .portInfo {
+    padding:1vw;
     float:right;
-    width:100%;
 }
 
 .projectLink,
 .gitLink {
-    margin-top:1vw;
+    margin-top:3vw;
+    margin-left:10%;
+    margin-bottom:3vw;
     padding-top:1vw;
     padding-bottom:1vw;
     background-color:#444349;
     color:#F7F7F2;
-    width:50%;
+    width:35%;
     float:left;
     text-align:center;
 }
@@ -219,14 +224,6 @@ footer {
     background-color:#dcd6f7;
     color:#444349;
     transition: background-color 0.5s ease;
-}
-
-.projectLink {
-    float:left;
-}
-
-.gitLink {
-    float:right;
 }
 
 #humaniteer {
@@ -256,6 +253,33 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#schedulerInfo > p,
+#schedulerInfo > h1,
+#schedulerInfo > div {
+    background-color:black;
+    color:white;
+    border: solid white;
+}
+
+#schedulerInfo > div > h3,
+#schedulerInfo > h1 {
+    text-shadow:
+    0.1vw 0.1vw 0 #d860a8,
+    0.1vw 0.1vw 0 #d860a8,
+    0.1vw 0.1vw 0 #d860a8,
+    0.1vw 0.1vw 0 #d860a8;
+}
+
+#schedulerInfo > a {
+    background-color:#d860a8;
+    border: solid white;
+}
+
+#schedulerInfo > a:hover{
+    background-color:#2a307e;
+    color:white;
+}
 #triviaGame {
     background-image: url(../images/rug.jpg);
     background-position: center;
@@ -269,7 +293,11 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#Contact-Info {
+
+.rounded {
+    border-radius: 5px;
+}
+#contactInfo {
     width:30%;
     border-left:0.1vw solid black;
     margin:1vw;
@@ -278,7 +306,7 @@ footer {
     word-wrap: break-word;
 }
 
-#Contact-Input {
+#contactInput {
     border-left:0.1vw solid black;
     margin:1vw;
     float:left;
@@ -286,7 +314,7 @@ footer {
     padding:0px;
 }
 
-.ContOption {
+.contOption {
     width:90%;
     margin:1vw;
 }
@@ -296,7 +324,7 @@ input[type=text]:focus {
     color:#444349;
 }
 
-.CommentInput[type=text]:focus {
+.commentInput[type=text]:focus {
     background-color:#dcd6f7;
     color:#444349;
 }
@@ -309,17 +337,17 @@ input {
 label {
     font-weight:bolder;
 }
-.CommentInput {
+.commentInput {
     height:auto;
     width:100%;
 }
 
-.SubmitButton {
+.submitButton {
     margin-left:3%;
     width:90%;
 }
 
-.SubmitButton {
+.submitButton {
     float:left;
     margin-bottom:2vw;
 }
