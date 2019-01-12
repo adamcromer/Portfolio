@@ -95,21 +95,16 @@ a {
 }
 
 #mainBio,
-#bioImage,
-#contactInfo {
+#bioImage {
     float:left;
 }
 
 #mainBio { 
     width:80%;
-    margin: 12vw 10% 10vw 10%;
+    margin: 12vw 10% 17vw 10%;
     padding:0;
     background-color:#F7F7F2;
     color:#444349;
-}
-
-#contactInfo {
-    width:30%;
 }
 
 #bioImage {
@@ -133,13 +128,12 @@ a {
 }
 
 footer {
-    clear:both;
-    height:5vw;
+    height:8vw;
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color:#dcd6f7;
-    margin-top:10%;
+    margin-top:5vw;
     text-align:center;
     border-top:0.5vw solid #abc4ab;
     font-style:italic;
@@ -152,6 +146,17 @@ footer {
     bottom: 0;
     left: 33.3%;
     width:33.3%;
+}
+
+.footNavImgLeft {
+    height:3vw;
+    margin-top:1.5vw;
+}
+
+.footNavImg {
+    height:3vw;
+    margin-left:4vw;
+    margin-top:1.5vw;
 }
 
 .portSquares {
@@ -417,60 +422,6 @@ footer {
 
 .rounded {
     border-radius: 5px;
-}
-#contactInfo {
-    width:30%;
-    border-left:0.1vw solid black;
-    margin:1vw;
-    margin-right:0vw;
-    float:left;
-    word-wrap: break-word;
-}
-
-#contactInput {
-    border-left:0.1vw solid black;
-    margin:1vw;
-    float:left;
-    width:60%;
-    padding:0px;
-}
-
-.contOption {
-    width:90%;
-    margin:1vw;
-}
-
-input[type=text]:focus {
-    background-color:#dcd6f7;
-    color:#444349;
-}
-
-.commentInput[type=text]:focus {
-    background-color:#dcd6f7;
-    color:#444349;
-}
-
-label,
-input {
-    width:100%;
-} 
-
-label {
-    font-weight:bolder;
-}
-.commentInput {
-    height:auto;
-    width:100%;
-}
-
-.submitButton {
-    margin-left:3%;
-    width:90%;
-}
-
-.submitButton {
-    float:left;
-    margin-bottom:2vw;
 }
 
 ::-webkit-scrollbar {
