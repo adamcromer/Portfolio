@@ -128,12 +128,13 @@ a {
 }
 
 footer {
-    height:8vw;
+    /* height:8vw; */
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color:#dcd6f7;
     margin-top:5vw;
+    padding-bottom:5vw;
     text-align:center;
     border-top:0.5vw solid #abc4ab;
     font-style:italic;
@@ -143,9 +144,14 @@ footer {
 
 #footerText {
     position: absolute;
-    bottom: 0;
+    bottom: 1vw;
     left: 33.3%;
     width:33.3%;
+    transition: 0.5s ease;
+}
+
+#footerText:hover {
+    font-weight:bolder;
 }
 
 .footNavImgLeft {
@@ -157,6 +163,10 @@ footer {
     height:3vw;
     margin-left:4vw;
     margin-top:1.5vw;
+}
+
+#gitIcon {
+    transition: 0.5s ease;
 }
 
 .portSquares {
