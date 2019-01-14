@@ -1,21 +1,11 @@
-@media screen and (max-width: 980px) {
-    #bioImage {
-        max-width:40%;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .navBarLinks {
-        font-size:2vw;
+        font-size:3vw;
     }
 
     h2 {
         font-size:3vw;
-    }
-
-    #headerName,
-    nav {
-        top:20%;
     }
 
     #headerLeft {
@@ -25,7 +15,6 @@
 
     footer {
         font-size:3vw;
-        height:8vw;
     }
 
     #bioImage {
@@ -41,73 +30,61 @@
         left:25%;
     }
 
-    #contactInfo,
-    #contactInput {
-        width:90%;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    header,
-    footer {
-        height:10vw;
+    .footNavImgLeft,
+    .footNavImg {
+        height:5vw;
     }
 
-    nav,
-    #headerName {
-        top:30%;
+    .portInfo > h1,
+    .portInfo > div > h3 {
+        font-size:3.5vw;
     }
 
-    .navBarLinks,
-    .portBanners {
+    .portInfo > p,
+    .portInfo > a,
+    .portInfo > div > p {
         font-size:3vw;
     }
-    
-    nav {
-        width:50%;
-    }
-
-    #mainBio {
-        margin-top:15vw;
-        margin-bottom:15vw;
-    }
-
-    #footerText {
-        width:50%;
-        left:25%;
-    }
-    
 }
 
 @media screen and (max-width: 426px) {
 
-    html,
     header {
-        margin:0px;
-        padding:0px;
+        height:10vw;
     }
-    
-    #mainBio {
-        margin-left:0%;
-        margin-right:0%;
+
+    #headCont {
+        margin-left:0;
         width:100%;
     }
 
+    nav {
+        float:right;
+        margin-right:2vw;
+        margin-top:1vw;
+    }
+
+    #mainBio {
+        margin-top:15vw;
+        margin-bottom:22vw;
+        margin-left:0%;
+        margin-right:0%;
+        padding-bottom:10vw;
+        width:100%;
+    }
+
+    #bioImage {
+        margin-bottom:1vw;
+        margin-right:2vw;
+    }
+
     #bioText {
-        font-size:4vw;
+        font-size:5vw;
     }
 
     #headerLeft {
         font-size:6vw;
-        width:40%;
-    }
-
-    #headerName {
-        font-size:4vw;
-    }
-
-    nav {
-        width:60%;
+        width:45%;
     }
 
     .navBarLinks {
@@ -118,18 +95,42 @@
         font-size:6vw;
     }
 
-    h2 {
-        font-size:5vw;
+    .footNavImgLeft,
+    .footNavImg {
+        height:7vw;
     }
 
-    nav,
-    #headerName {
-        top:20%;
+    h2 {
+        font-size:6vw;
     }
 
     .portSquares {
         width:100%;
         margin-top:5vw;
         margin-left:0;
+    }
+
+    .portInfo > h1,
+    .portInfo > div > h3 {
+        font-size:6vw;
+    }
+
+    .portInfo > p,
+    .portInfo > a,
+    .portInfo > div > p {
+        font-size:5vw;
+    }
+
+    .portInfo > p {
+        margin-top:12vw;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    #bioImage {
+        max-width:70%;
+        margin-left:15%;
+        float:none;
     }
 }
