@@ -168,6 +168,10 @@ footer {
     transition: 0.5s ease;
 }
 
+.border {
+    border:solid #444349 0.25vw;
+}
+
 .portSquares {
     float: left;
     width: 80%;
@@ -430,7 +434,7 @@ footer {
 }
 
 .rounded {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar {
