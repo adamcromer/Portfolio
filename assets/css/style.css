@@ -302,7 +302,16 @@ footer {
 
 #liriInfo > a:hover{
     background-color:black;
+    color: #98c379;
 }
+
+/* 
+Other one dark pro colors just in case
+    #56b6c2 light blue
+    #e06c75 red salmon color
+    #c678dd purple
+    #98c379 green 
+    */
 
 #scheduler {
     background-image: url(../images/space.jpg);
