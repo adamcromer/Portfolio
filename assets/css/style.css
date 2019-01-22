@@ -281,6 +281,36 @@ footer {
     color:white;
 }
 
+#liri {
+    background-image: url(../images/liri.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#liriInfo > p,
+#liriInfo > h1,
+#liriInfo > div {
+    background-color:hsla(0, 0%, 0%, 0.6);
+    color:white;
+}
+
+#liriInfo > div > h3,
+#liriInfo > h1 {
+    color:white;
+}
+
+#liriInfo > a {
+    color:white;
+    background-color:hsla(0, 0%, 0%, 0.6);
+    margin-left:20vw;
+}
+
+#liriInfo > a:hover{
+    background-color:black;
+    color:white;
+}
+
 #scheduler {
     background-image: url(../images/space.jpg);
     background-position: center;
