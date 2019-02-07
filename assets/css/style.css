@@ -288,6 +288,13 @@ footer {
     background-size: cover;
 }
 
+#bamazon {
+    background-image: url(../images/bamazon.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #liriInfo > p,
 #liriInfo > h1,
 #liriInfo > div,
@@ -296,13 +303,27 @@ footer {
     color:white;
 }
 
-#liriInfo > a {
+#bamazonInfo > p,
+#bamazonInfo > h1,
+#bamazonInfo > div,
+#bamzonInfo > a {
+    background-color:hsla(249, 4%, 27%, 0.9);
+    color:white;
+}
+
+#liriInfo > a,
+#bamazonInfo > a {
     margin-left:20vw;
 }
 
-#liriInfo > a:hover{
+#liriInfo > a:hover {
     background-color:black;
     color: #98c379;
+}
+
+#bamazonInfo > a:hover {
+    background-color:slategray;
+    color:white;
 }
 
 /* 
