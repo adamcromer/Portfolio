@@ -219,6 +219,10 @@ footer {
     float:left;
 }  
 
+.portBanners > img {
+    height:2.5vw;
+}
+
 .portInfo > div,
 .portInfo > p,
 .portInfo > a {
@@ -255,6 +259,37 @@ footer {
     background-color:#dcd6f7;
     color:#444349;
     transition: background-color 0.5s ease;
+}
+
+#circleUp {
+    background-color:white;
+    border-color:#009BA0;
+}
+
+#circleUpInfo > p,
+#circleUpInfo > div,
+#circleUpInfo > a {
+    background-color: #009BA0;
+    background-image: linear-gradient(to bottom right, #00bcd4, #00796b);
+    color:white;  
+}
+
+#circleUpInfo > h1,
+#cicleUpInfo > div {
+    background-color:white;
+    font-weight:bolder;
+    color:#009BA0;
+}
+
+#circleUpInfo > a {
+    border-color:white;
+}
+
+#circleUpInfo > a:hover{
+    background-color:white;
+    background-image:none;
+    color:#009BA0;
+    border-color:#009BA0;
 }
 
 #friend {
