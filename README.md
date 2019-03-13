@@ -1,10 +1,10 @@
 # Adam Cromer Portfolio
 
-This is a portfolio made for Adam by Adam.
+This is a portfolio made completely by Adam to showcase my completed projects and resume. 
 
 [View deployed project.](https://adamcromer.github.io/Portfolio/)
 
-This project was made using JQuery, JavaScript, HTML, and CSS.
+This project was made using JQuery, JavaScript, HTML and CSS, and Google Fonts.
 
 
-[Made by Adam Cromer, 2018.](http://www.adamcromer.com)
+[Made by Adam Cromer, 2019.](http://www.adamcromer.com)
