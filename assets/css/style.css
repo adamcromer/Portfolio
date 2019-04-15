@@ -472,6 +472,7 @@ Other one dark pro colors just in case
 }
 
 #triviaGame {
+    border-color: black;
     background-image: url(../images/rug.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -522,7 +523,31 @@ Other one dark pro colors just in case
     color:white;
 }
 
+#burger {
+    background: url(../images/plaid.jpg) repeat center center;
+    border-color:#e6aaac;
+}
+
+#burgerInfo > p,
+#burgerInfo > h1,
+#burgerInfo > div {
+    background-color:#fdfbf3;
+    color:black;  
+    border: 0.5vw solid #e6aaac;
+}
+
+#burgerInfo > a {
+    background-color:#e6aaac;
+    color: black;
+    border: 0.5vw solid #e6aaac; 
+}
+
+#burgerInfo > a:hover{
+    background-color:#fdfbf3;
+}
+
 #guessGame {
+    border-color: black;
     background-image: url(../images/animalwallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
