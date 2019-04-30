@@ -261,6 +261,38 @@ footer {
     transition: background-color 0.5s ease;
 }
 
+#workins {
+    background-color: #8c97a2;
+    border-color:#32383e;
+}
+
+#workinsInfo > p,
+#workinsInfo > h1,
+#workinsInfo > div {
+    background-color:#32383e;
+    color:white;  
+    border: solid #32383e;  
+}
+
+#workinsInfo > div > h3 {
+    color:#ffbb33;
+}
+
+#workinsInfo > h1 {
+    color: white;
+}
+
+#workinsInfo > a {
+    background-color:#ffbb33;
+    color:black;
+    border: none;
+}
+
+#workinsInfo > a:hover{
+    background-color:#32383e;
+    color:#ffbb33;
+}
+
 #circleUp {
     background-color:white;
     border-color:#009BA0;
