@@ -28,36 +28,228 @@
             <div id="headerLeft">
                 <a id="headerName" href="index.html">Adam Cromer</a>
             </div>
-
             <nav>
-                <a class="navBarLinks" href="index.html">About</a>
-                <a class="navBarLinks" href="portfolio.html">Portfolio</a>
+                <a class="navBarLinks" href="#about">About</a>
+                <a class="navBarLinks" href="#portfolio">Portfolio</a>
                 <a class="navBarLinks" href="assets/documents/adamcromerresume.pdf" target="_blank">Resume</a>
             </nav>
-
         </div>
     </header>
 
-    <section id="mainBio">
-
+    <section class="mainBio" id="about">
         <h2>About Adam</h2>
-
         <img id="bioImage" src="assets/images/adamfamily.jpg">
-
         <p id="bioText">Adam is a Full Stack Web Developer and learned coding while working hard through the University
-            of Utah Coding Bootcamp for Full Stack Web Development in the fall of 2018. He currently works as a freelance developer. He lives with his partner, Jessica, their two dogs, Sam and Alice, and their two
+            of Utah Coding Bootcamp for Full Stack Web Development in the fall of 2018. He currently works as a
+            freelance developer. He lives with his partner, Jessica, their two dogs, Sam and Alice, and their two
             cats, Bebop and Spook. <br><br>
 
             Adam is a native Utahn and spends his free time reading, playing video games, hiking, enjoying vegan
-            cuisine, making playlists, volunteering at a local animal sanctuary, and has a love of movies from working at a theatre for
+            cuisine, making playlists, volunteering at a local animal sanctuary, and has a love of movies from working
+            at a theatre for
             many years.<br><br>
 
             Adam resides in West Jordan, Utah. <br><br>
-            
+
             Hire him today!
-
         </p>
+    </section>
+    <section class="mainBio" id="portfolio">
+        <h2>Portfolio</h2>
+        <h4>Applications</h4>
 
+        <div class="portSquares" id="workins">
+            <div class="portInfo" id="workinsInfo">
+                <h1 class="portBanners rounded">
+                    <img src="assets/images/workinsIcon.png">
+                    Workins
+                </h1>
+                <p class="portText rounded">
+                    Workins is a full stack MERN application that lets you build custom made workouts comprised of
+                    multiple exercises.</p>
+                <div class="portLang rounded">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">MongoDB, Express, React, & Node.js</p>
+                </div>
+                <a target="_blank" href="http://workins.herokuapp.com/" class="projectLink rounded border">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/workouts" class="gitLink rounded border"
+                    id="liriLink">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="circleUp">
+            <div class="portInfo" id="circleUpInfo">
+                <h1 class="portBanners rounded">
+                    <img src="assets/images/circleUpIcon.png">
+                    CircleUp
+                </h1>
+                <p class="portText rounded">
+                    CircleUp helps organize the planning, guest list, and even lets you know what you can bring to host
+                    or attend an event.</p>
+                <div class="portLang rounded">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">This project uses a Node and Express Web Server backed by a MySQL Database
+                        with a Sequelize ORM. CircleUp is deployed using Heroku and JAWSdb.</p>
+                </div>
+                <a target="_blank" href="http://circleupslc.herokuapp.com/" class="projectLink rounded border">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/CircleUp" class="gitLink rounded border"
+                    id="liriLink">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="gifTastic">
+            <div class="portInfo" id="gifTasticInfo">
+                <h1 class="portBanners rounded">Cartoon Giftastic</h1>
+                <p class="portText rounded">Click a button to dynamically load gifs using Giphy’s API or create your
+                    own button
+                    to pull gifs from Giphy.</p>
+                <div class="portLang rounded">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">jQuery, JavaScript, Bootstrap, AJAX to pull data from Giphy’s API</p>
+                </div>
+                <a target="_blank" href="https://adamcromer.github.io/GifTastic/" class="projectLink rounded">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/GifTastic" class="gitLink rounded"
+                    id="liriLink">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="burger">
+            <div class="portInfo" id="burgerInfo">
+                <h1 class="portBanners">Ultimate Veggie Burger</h1>
+                <p class="portText">Add or remove toppings to make the ultimate veggie burger.</p>
+                <div class="portLang">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">JavaScript application using Node to run a server with Express, a Database
+                        with MySQL, and templating with Handlebars.</p>
+                </div>
+                <a target="_blank" href="https://vegburger.herokuapp.com/" class="projectLink rounded">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/burger" class="gitLink rounded">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="starTrek">
+            <div class="portInfo" id="starTrekInfo">
+                <h1 class="portBanners">Star Trek RPG</h1>
+                <p class="portText">A simple click based RPG using jQuery to hide and show elements.</p>
+                <div class="portLang">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">jQuery, JavaScript, HTML, CSS</p>
+                </div>
+                <a target="_blank" href="https://adamcromer.github.io/StarTrekGame/" class="projectLink">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/StarTrekGame" class="gitLink">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="humaniteer">
+            <div class="portInfo" id="humaniteerInfo">
+                <h1 class="portBanners rounded">Humaniteer</h1>
+                <p class="portText rounded">A project to connect volunteers with volunteering opportunities and view
+                    the
+                    location on Google Maps.</p>
+                <div class="portLang rounded">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">jQuery, JavaScript, Bootstrap, Google Maps API, Firebase, FullCalendar, &
+                        Moment.js</p>
+                </div>
+                <a target="_blank" href="https://adamcromer.github.io/ApiProject/" class="projectLink rounded">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/ApiProject" class="gitLink rounded">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="scheduler">
+            <div class="portInfo" id="schedulerInfo">
+                <h1 class="portBanners rounded">Spaceship Scheduler</h1>
+                <p class="portText rounded">A scheduler which lets the user add or see scheduled ships which are then
+                    saved to
+                    Firebase for later use.</p>
+                <div class="portLang rounded">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">jQuery, JavaScript, Bootstrap, Firebase, Moment.js</p>
+                </div>
+                <a target="_blank" href="https://adamcromer.github.io/SpaceshipScheduler/"
+                    class="projectLink rounded">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/SpaceshipScheduler" class="gitLink rounded">View
+                    Code</a>
+            </div>
+        </div>
+        <!-- <div class="portSquares" id="friend">
+            <div class="portInfo" id="friendInfo">
+                <h1 class="portBanners rounded">Friend Finder</h1>
+                <p class="portText rounded">An app to help find a friend. Answer a few questions and find out who could
+                    be your new best friend.</p>
+                <div class="portLang rounded">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">jQuery, JavaScript, Node.js, & Express</p>
+                </div>
+                <a target="_blank" href="https://powerful-headland-69724.herokuapp.com/home" class="projectLink rounded"
+                    id="friendProject">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/friendFinder" class="gitLink rounded"
+                    id="friendGit">View Code</a>
+            </div>
+        </div> -->
+        <div class="portSquares" id="triviaGame">
+            <div class="portInfo" id="triviaGameInfo">
+                <h1 class="portBanners">The Big Lebowski Trivia</h1>
+                <p class="portText">A timed trivia game which loads each question separately based around the classic
+                    'The Big Lebowski'.</p>
+                <div class="portLang">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">jQuery, JavaScript, HTML, CSS</p>
+                </div>
+                <a target="_blank" href="https://adamcromer.github.io/Trivia-Game/" class="projectLink">View Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/Trivia-Game" class="gitLink">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="guessGame">
+            <div class="portInfo" id="guessGameInfo">
+                <h1 class="portBanners">Animal Guess Game</h1>
+                <p class="portText">A game which takes user input to guess a certain word in a certain number of
+                    guesses.</p>
+                <div class="portLang">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">JavaScript, HTML, CSS</p>
+                </div>
+                <a target="_blank" href="https://adamcromer.github.io/Word-Guess-Game/" class="projectLink">View
+                    Project</a>
+                <a target="_blank" href="https://github.com/adamcromer/Word-Guess-Game" class="gitLink">View Code</a>
+            </div>
+        </div>
+
+        <h4>Command Line Interfaces</h4>
+        <div class="portSquares" id="liri">
+            <div class="portInfo" id="liriInfo">
+                <h1 class="portBanners">LIRI Bot</h1>
+                <p class="portText">A node command line interface which requests data from Spotify, Bands In
+                    Town, and OMDb, using their API to give user song, concert, or movie information.
+                    <br><br>
+                    This is a CLI so a deployed project is not available. If you wish to run it, follow the
+                    instructions in the README.
+                </p>
+                <div class="portLang">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">Node.js and JavaScript</p>
+                </div>
+                <a target="_blank" href="https://github.com/adamcromer/liribot" class="gitLink">View Code</a>
+            </div>
+        </div>
+        <div class="portSquares" id="bamazon">
+            <div class="portInfo" id="bamazonInfo">
+                <h1 class="portBanners">CLI Bookstore</h1>
+                <p class="portText">A node command line interface which a customer can buy books. See current inventory
+                    and prices and add to your cart.
+                    <br><br>
+                    This is a CLI so a deployed project is not available. If you wish to run it, follow the
+                    instructions in the README.
+                </p>
+                <div class="portLang">
+                    <h3 class="portLangTitle">Technologies Used:</h3><br>
+                    <p class="portLangList">Node.js, JavaScript, & MySQL</p>
+                </div>
+                <a target="_blank" href="https://github.com/adamcromer/storeFront" class="gitLink">View Code</a>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -75,7 +267,8 @@
         <a id="footerText" href="http://www.adamcromer.com">adamcromer.com &#169;</a>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>

@@ -101,12 +101,12 @@ a {
     text-decoration:none;
 }
 
-#mainBio,
+.mainBio,
 #bioImage {
     float:left;
 }
 
-#mainBio { 
+.mainBio { 
     width:80%;
     margin: 12vw 10% 17vw 10%;
     padding:0;
@@ -125,7 +125,7 @@ a {
 
 #bioText {
     margin: 1vw;
-    font-size:2vw;
+    font-size:1.9vw;
 }
 
 .clearfix::after {
