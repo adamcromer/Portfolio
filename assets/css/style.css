@@ -23,7 +23,8 @@ header {
     height:7vw;
     border-bottom:0.75vw solid #dcd6f7;
     width:100%;
-    position:absolute;
+    position: fixed;
+    z-index:100;
 }
 
 #headCont {
@@ -61,11 +62,11 @@ nav {
 }
 
 .navBarLinks {
-    float:left;
+    float: left;
     padding: 2.5vw 1vw 2.5vw 1vw;
-    text-align:center;
-    font-size:2vw;
-    font-weight:bold;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 900;
     transition: background-color 0.5s ease;
 }
 
@@ -79,16 +80,16 @@ h2 {
     background-color:#F7F7F2;
     padding: 3% 3% 3% 3%;
     color:#444349;
-    border-bottom:0.1vw solid black;
-    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
-    font-size:2.5vw;
-    font-weight:bolder;
+    border-bottom: 0.1vw solid black;
+    font-family: 'Playfair Display', 'Georgia', Times, 'Times New Roman', serif; 
+    font-size: 2.5vw;
+    font-weight: 900;
 }
 
 h4 {
     font-size:2vw;
-    font-weight:bold;
-    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-weight:900;
+    font-family: 'Playfair Display', 'Georgia', Times, 'Times New Roman', serif; 
     padding:2vw 3% 1vw 3%;
 }
 
@@ -649,9 +650,10 @@ iframe {
     position: absolute;
     top: 0;
     width: 100%;
+    overflow: hidden;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar, iframe ::-webkit-scrollbar {
     width: 0.75vw;
 }
 
